@@ -9,9 +9,11 @@
 const app = Vue.createApp({
     data() {
         return {
-            message : "Bonjour, VueJS!"
+            message : "Bonjour, VueJS!",
+            img : "./img/pikachu.png"
         }
     }
 });
 
 app.mount("#root");
+
