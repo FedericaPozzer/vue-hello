@@ -10,7 +10,13 @@ const app = Vue.createApp({
     data() {
         return {
             message : "Bonjour, VueJS!",
-            img : "./img/pikachu.png"
+            img : "./img/pikachu.png",
+        }
+    },
+
+    methods: {
+        click() {
+            alert("Hai cliccato Pikachu!");
         }
     }
 });
