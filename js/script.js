@@ -6,6 +6,7 @@
 
 // console.log("Vue Ok!", Vue);
 
+// uguale a const { createApp } = Vue
 const app = Vue.createApp({
     data() {
         return {
@@ -22,4 +23,5 @@ const app = Vue.createApp({
 });
 
 app.mount("#root");
+// root può chiamarsi come voglio (anche app)!
 
